@@ -11,7 +11,7 @@ function versorUnitario
   % Leemos el vector
   sumaCuadratica = 0;
   for i=1:longitud
-    printf("Ingrese un valor para la componente ");
+    printf("Ingrese un valor para la componente");
     disp(i);
     vector(i) = input('');
     sumaCuadratica += vector(i)^2;
